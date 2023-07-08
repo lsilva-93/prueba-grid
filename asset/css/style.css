@@ -19,9 +19,9 @@
     display: flex;
     grid-area: nav;
     background-color: blue;
-    height: 3rem;
     align-items: center;
     justify-content:space-between;
+
  
 }
 
@@ -97,5 +97,10 @@ footer {
             "nav filtro filtro"
             "nav cuerpo cuerpo"
             "footer paginacion paginacion";
+    }
+    .barra-titulo {
+        display: flex;
+        justify-content: start;
+        align-items: start;
     }
 }
